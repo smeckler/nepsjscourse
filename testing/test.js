@@ -1,13 +1,12 @@
-var string = "Hello World!" // Declaring the variable
+let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "end"];
 
-var index1 = string.indexOf("Hello") // Looking for the substring index 'Hello'
-var index2 = string.indexOf("Hi") // Looking for the substring index 'Oi'
+let first = numbers[0]; // Reading the first value
 
-console.log(index1)
-console.log(index2)
+numbers[0] = 11 // Changing the first value to 10
 
-/* 
-Output:
-0
--1
-*/
+if(first === numbers[0])
+  console.log("The values are the same");
+else
+  console.log("The values are different");
+
+// Output: The values are different

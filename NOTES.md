@@ -1,5 +1,13 @@
 # nepsjscourse
 
+## general
+
+### exercises
+
+It would be nice to see the error message in case of a runtime error.
+
+## JS course
+
 ### development environment
 
 maybe mention the VSCode docu for JavaScript: 
@@ -44,3 +52,10 @@ However, wrapper objects (String, Number, Boolean) are implicitly used to provid
 * maybe link to [String docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 * [FIXED] translation error in last code exmaple
 
+### list
+
+* provide link to [Array docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [FIXED] missing bracket in 2nd listing
+* explain why the values are different: array (=object) is a ref. data type
+* [FIXED] ... using a for _loop_
+* [FIXED] ... methods provided by the _Array_ class (not string class)
