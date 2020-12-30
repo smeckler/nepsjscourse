@@ -59,3 +59,14 @@ However, wrapper objects (String, Number, Boolean) are implicitly used to provid
 * explain why the values are different: array (=object) is a ref. data type
 * [FIXED] ... using a for _loop_
 * [FIXED] ... methods provided by the _Array_ class (not string class)
+
+### objects
+
+* maybe add: The direct declaration of objects with curly brackets is known as 'object literal notation' and is used for single-use objects.
+
+### functions
+
+* I would add an explanation of function expressions between the regular functions section and the part about arrow functions
+* [FIXED] missing back tick in last code example
+* [FIXED] last sentence bold format
+
