@@ -1,10 +1,13 @@
 # nepsjscourse
 
-## general
+## general notes
 
-### exercises
+**lessons**
+* redirect to lesson page after text edit
 
-It would be nice to see the error message in case of a runtime error.
+**exercises**
+* It would be nice to see the error message in case of a runtime error.
+* PROs can see exactly where they got it wrong. Download the first wrong test case below: NOT AVAILABLE
 
 ## JS course
 
@@ -70,3 +73,27 @@ However, wrapper objects (String, Number, Boolean) are implicitly used to provid
 * [FIXED] missing back tick in last code example
 * [FIXED] last sentence bold format
 
+### libraries and npm
+
+* LIbraries in the title
+* [FIXED] bold formatting at 2nd sentence; grammar (we can ... _installs_ it)
+* include link to [npm docs](https://docs.npmjs.com/)
+* "let’s initialize the npm in our directory" npm init creates a package (=project). I would suggest "let's create a new package/project in our directory. To do this, ..."
+* maybe link to [moment](https://www.npmjs.com/package/moment) and chalk packages
+* [FIXED] first date code (DD/MM/YYY -> DD/MM/YYYY)
+* [FIXED] last passage
+
+### sort and filter
+
+* [FIXED] typo in "The default sorting is will be done ..."
+* [FIXED] last sentence bold format
+* add links to the documentation of the [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) and filter methods
+
+### classes
+
+* [FIXED] age() method, not act()
+* [FIXED] output in last code exmaple
+
+### execise 'matryoshka'
+
+I had a hard time solving this execise because I interpreted the collecting of the dolls in a different way. The easy solution was that Bea has to pick every doll that is on the wrong place compared to the sorted list. First, I thought that places can be left empty and it would still count as ordered. For example: If you have 1 66 3 8 99 2 123, you would only pick number 66 and 2, which results in the ordered sequence 1 _ 3 8 99 _ 123. Then Bea inserts the dolls in the right place, maybe even between two other dolls -> 1 __2__ 3 8 __66__ 99 123.
